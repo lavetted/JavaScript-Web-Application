@@ -8,10 +8,13 @@
 
 ## My struggles
 
+ - Founding a good API 
  - I had a really hard time starting JS without having HTML and CSS
  - Had I hard time to get my button away from the movie Img and description
+ - Needed to place max-width and use flex box to move everything 
+ - It was confusing doing the import and export on multiple pages
 
-# Movie Date Ap
+# Movie Date 
 
 This application allows users to load and explore movie data from an external API.
 Users can retrieve random movies and view their poster and description.
