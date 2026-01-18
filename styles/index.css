@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1 {
+  position: absolute;
+  top: 1rem;
+  font-family: "Arial Black", sans-serif;
+  color: #333;
+}
+
+#movie {
+  max-width: 400px;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#movie img {
+  width: 100%;
+  border-radius: 8px;
+}

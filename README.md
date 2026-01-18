@@ -8,7 +8,26 @@
 
 ## My struggles
 
+ - I had a really hard time starting JS without having HTML and CSS
 
+# Movie Date Ap
+
+This application allows users to load and explore movie data from an external API.
+Users can retrieve random movies and view their poster and description.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Axios
+- External REST API
+
+## Features
+
+- Fetches movie data from an API
+- User interaction through button
+- Modular JavaScript structure
 
 ## My Checklist
 
