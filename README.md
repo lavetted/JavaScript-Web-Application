@@ -28,6 +28,7 @@ Users can retrieve random movies and view their poster and description for Movie
 - JavaScript
 - Axios
 - External REST API
+- API key: https://jsonfakery.com/movies-list
 
 ## Features
 
