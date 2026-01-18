@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Night</title>
     <!-- links -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="../styles/index.css" />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script defer type="module" src="../scripts/main.js"></script>
   </head>
   <h1>Movie Night</h1>
   <body>
-    <button id="loadMovie">Load Random Movie</button>
+    <div class="movie-layout">
+      <!-- LEFT SIDE -->
+      <div class="movie-controls">
+        <button id="loadMovie">Load Random Movie</button>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="movie-content">
+        <img id="movieImage" alt="Movie poster" />
+        <p id="movieDescription"></p>
+      </div>
+    </div>
+
+    <!-- <button id="loadMovie">Load Random Movie</button>
 
     <div id="movie">
       <img id="movieImage" alt="Movie poster" />
       <p id="movieDescription"></p>
-    </div>
+    </div> -->
   </body>
 </html>

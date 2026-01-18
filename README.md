@@ -9,6 +9,7 @@
 ## My struggles
 
  - I had a really hard time starting JS without having HTML and CSS
+ - Had I hard time to get my button away from the movie Img and description
 
 # Movie Date Ap
 

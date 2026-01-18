@@ -8,26 +8,121 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(../Image/tanjiro-kamado-6082x5416-23027.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 * {
   box-sizing: inherit;
 }
 
 h1 {
-  position: absolute;
+  position: fixed;
   top: 1rem;
   font-family: "Arial Black", sans-serif;
-  color: #333;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+  font-size: 45px;
 }
 
-#movie {
+#loadMovie {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4f8ac9;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#loadMovie:hover {
+  background-color: #367ab8;
+}
+
+.movie-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* important */
+  width: 100%;
+  padding: 2rem 4rem;
+}
+
+
+/* Left column */
+.movie-controls {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  flex: 1;
+}
+
+
+/* Right column */
+.movie-content {
+  flex: 3;
+}
+
+/* Optional polish */
+.movie-content {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#movieImage,
+#movieDescription {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  font-family: "Verdana", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+
+
+/* #movie {
+  background-color: rgba(0, 0, 0, 0.6);
   max-width: 400px;
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 #movie img {
   width: 100%;
   border-radius: 8px;
 }
+
+#movieDescription {
+  font-family: "Verdana", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+#loadMovie {
+  position: absolute;
+  bottom: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #6bacf1;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
