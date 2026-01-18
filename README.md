@@ -13,7 +13,7 @@
  - Had I hard time to get my button away from the movie Img and description
  - Needed to place max-width and use flex box to move everything 
  - It was confusing doing the import and export on multiple pages
- - Another struggle was getting my button on side and the movie info on the other side.
+ - Another struggle was getting my button on the left side and the movie info on the other side.
  - Biggest struggle was making sure my JS code worked in 4 pages and that I import and export correctly 
 
 # Movie Date 
@@ -50,7 +50,7 @@ misunderstanding of the JavaScript event loop (such as race conditions, API call
 
 - Create an engaging user experience through the use of HTML and CSS. (Done ✔️ )
 
-- Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit). (Put my stuggles in my README.md and put some comments on some of my pages ✔️ )
+- Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit). (Put my stuggles in my README.md and put some comments on some of my pages lik index.html and index.css ✔️ )
 
 - Commit frequently to the git repository. 10 or more ✔️ 
 
