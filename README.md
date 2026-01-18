@@ -13,6 +13,7 @@
  - Had I hard time to get my button away from the movie Img and description
  - Needed to place max-width and use flex box to move everything 
  - It was confusing doing the import and export on multiple pages
+ - Another struggle was getting my button on side and the movie info on the other side.
  - Biggest struggle was making sure my JS code worked in 4 pages and that I import and export correctly 
 
 # Movie Date 

@@ -3,3 +3,4 @@ export async function fetchRandomMovie() {
   return response.data;
 }
 console.log("axios exists:", typeof axios);
+// used axios
