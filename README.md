@@ -36,6 +36,28 @@ Users can retrieve random movies and view their poster and description for Movie
 - User interaction through button
 - Modular JavaScript structure
 
+## Project Requirements Checklist
+
+- Used Axios to communicate with an external web API and dynamically populate movie content.
+
+- Implemented user interaction through an interactive button that triggers GET requests to retrieve new data.
+
+- Utilized Promises and async/await syntax to handle asynchronous API calls.
+
+- Organized JavaScript into multiple modules (main.js, events.js, api.js, dom.js) with proper imports and exports.
+
+- Ensured correct asynchronous behavior with no race conditions or unexpected event loop issues.
+
+- Created an engaging and intentional user experience using HTML and CSS.
+
+- Ensured the application runs without errors; documented blockers and challenges in the README and comments.
+
+- Committed frequently to the Git repository (10+ commits).
+
+- Included a README describing the application, technologies used, and features.
+
+- Demonstrated creativity and thoughtful design through a simple, focused UI intended for couples.
+
 ## My Checklist
 
 - Use the fetch API or Axios to communicate with an external web API. Use the data provided by this API to populate your application's content and features. (I used axios✔️ )
