@@ -23,8 +23,9 @@ h1 {
   top: 1rem;
   font-family: "Arial Black", sans-serif;
   color: whitesmoke;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 4px 4px 8px black;
   font-size: 45px;
+  font-weight: bold;
 }
 
 .movie-layout {
@@ -49,6 +50,7 @@ h1 {
   color: white;
   cursor: pointer;
   box-shadow: 6px 6px 8px black;
+  font-weight: 700;
 }
 
 #loadMovie:hover {
